@@ -1,22 +1,16 @@
 <!-- header + navigatie -->
 <?php 
-include_once('dbconfig.php');
-include_once('template/header.php');
-if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
-    $pages = ['signup', 'login', 'home'];
-    if(in_array($_GET['page'], $pages)){ //check dan of de GET in de array voorkomt
-        include_once($_GET['page'].'.php');
-    } else { // zo niet laat de 404 pagina zien
-        include_once('404.php'); 
-    } 
-} else { // zo niet laat de home pagina zien
-    include_once('home.php');
-}
-include_once('template/footer.php');
-
 require_once('pages/temp/header.php');
 ?>
-
+<div class="banner">
+    <h1>test</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, <br>dui eget pellentesque finibus, urna turpis tincidunt sem, quis pretium risus lectus posuere orci.</p>
+    <div class="zoek input-group mb-3">
+        <input class="form-control" type="text" placeholder="Zoek">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+    <img class="img-fluid banner-foto" alt="Prachtig uitzicht van japan" src="img/samuel-berner-IPxOxtxDx2Q-unsplash.jpeg">
+</div>
 <!-- footer  -->
 <?php 
 require_once('pages/temp/footer.php');

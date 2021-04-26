@@ -1,6 +1,36 @@
         </main>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="container">
+                <div class="row container">               
+                    <div class="col-sm-4">
+                        <h5>Pagina's</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="index.php">Home</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Nieuwe stage plekken</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Recent toegevoegd</a></li>
+                        </ul>
+                    </div>                
+                    <div class="col-sm-4">
+                        <h5>Account</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Register</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Login</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Profiel</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Over</h5>
+                        <ul class="list-unstyled text-small">
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Over</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>        
     </body>
 </html>
