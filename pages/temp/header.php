@@ -1,5 +1,4 @@
 <?php
-include_once('template/header.php');
 if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
     $pages = ['signup', 'login', 'home'];
     if(in_array($_GET['page'], $pages)){ //check dan of de GET in de array voorkomt
@@ -54,18 +53,20 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                         </ul>
                     </ul>
                 </div>
-                <span class="navbar-text nav-space">
-                <ion-icon name="logo-facebook"></ion-icon>
-                </span>
-                <span class="navbar-text nav-space">
-                <ion-icon name="logo-twitter"></ion-icon>
-                </span>
-                <span class="navbar-text nav-space">
-                <ion-icon name="logo-instagram"></ion-icon>
-                </span>
-                <span class="navbar-text nav-space">
-                <a class="link-secondary text-decoration-none" href="#"> Login</a>
-                </span>
+                <div class="d-flex">
+                    <div class="nav-space">
+                        <a href="https://www.facebook.com/InternshipInJapan/" class="link-secondary"><ion-icon name="logo-facebook"></ion-icon></a>
+                    </div>
+                    <div class="nav-space">
+                        <a href="https://twitter.com/InternshipInJP" class="link-secondary"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <div class="nav-space">
+                        <a href="https://www.instagram.com/internshipinjapan/" class="link-secondary"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                    <div class="nav-space">
+                        <a class="link-secondary text-decoration-none" href="#"> Login</a>
+                    </div>
+                </div>
             </div>
         </nav>
-        <main class="container">
+        <main >

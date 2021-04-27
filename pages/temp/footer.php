@@ -19,7 +19,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4">
-                        <h5>Over</h5>
+                        <h5>Over Internship Japan </h5>
                         <ul class="list-unstyled text-small">
                             <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Over</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>

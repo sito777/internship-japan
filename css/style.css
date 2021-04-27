@@ -4,24 +4,50 @@
     padding: 0px 10px;
 }
 
-/* navigatie */
-.nav-space{
-    margin: 0px 10px;
+.sectie-space{
+    margin: 150px 0px;
 }
 
+/* navigatie */
+    .nav-space{
+        margin: 0px 10px;
+    }
+/* einde navigatie */
 
 
 /* home pagina */
 
-/* banner sectie  */
-.banner-foto{
-    width: 100vw;
-    height: 100vh;
-}
+    /* banner sectie  */
+    .banner{
+        position: relative;
+        padding: 0px!important;
+        margin-bottom: 150px;
+    }
 
-.zoekbalk{
-    border-radius: 40px;
-    padding: 0px 10px;
-    width: 50vw;
-    height: 40px;
-}
+    .banner-foto{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .overlay-text{
+        position: absolute;
+        margin-top: 15%;
+    }
+
+    .zoekbalk{
+        padding: 0px 10px!important;
+        width: 50vw!important;
+        height: 40px!important;
+    }    
+    /* einde banner sectie  */
+    
+    /* recent-toegevoegd */
+    /* einde recent-toegevoegd */
+
+    /* cards */
+    .card-space{
+        margin-bottom: 20px;
+    }
+    /* einde cards */
+
+/* einde home pagina */
