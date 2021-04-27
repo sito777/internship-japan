@@ -69,4 +69,4 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                 </div>
             </div>
         </nav>
-        <main >
+        <main>
