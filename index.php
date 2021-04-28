@@ -22,7 +22,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body border-danger">
                     <h5 class="card-title">Titel recent toegevoegd aan database</h5>
                     <p class="card-text">Beschrijving recent toegevoegd aan database</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body">
                     <h5 class="card-title">Titel recent toegevoegd aan database</h5>
                     <p class="card-text">Beschrijving recent toegevoegd aan database</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body">
                     <h5 class="card-title">Titel recent toegevoegd aan database</h5>
                     <p class="card-text">Beschrijving recent toegevoegd aan database</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body border-danger">
                     <h5 class="card-title">Nieuwe stage plekken</h5>
                     <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body">
                     <h5 class="card-title">Nieuwe stage plekken</h5>
                     <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ require_once('pages/temp/header.php');
                 <div class="card-body">
                     <h5 class="card-title">Nieuwe stage plekken</h5>
                     <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ require_once('pages/temp/header.php');
                             <div class="col-sm-8">
                                 <h5 class="card-title">Nieuwe stage plekken</h5>
                                 <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                                <a href="#" class="btn btn-outline-danger">Klik voor meer</a>
+                                <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
                             </div>
                             <div class="col-sm-4">
                                     ronde foto met rode stip
