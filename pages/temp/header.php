@@ -36,35 +36,35 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active link-hover" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Stageplekken</a>
+                            <a class="nav-link link-hover" href="#">Stageplekken</a>
                         </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle link-hover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Over
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Over</a></li>
-                            <li><a class="dropdown-item" href="#">Team</a></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
-                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item link-hover" href="#">Over</a></li>
+                            <li><a class="dropdown-item link-hover" href="#">Team</a></li>
+                            <li><a class="dropdown-item link-hover" href="#">Contact</a></li>
+                            <li><a class="dropdown-item link-hover" href="#">FAQ</a></li>
                         </ul>
                     </ul>
                 </div>
                 <div class="d-flex">
                     <div class="nav-space">
-                        <a href="https://www.facebook.com/InternshipInJapan/" class="link-secondary"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.facebook.com/InternshipInJapan/" class="link-secondary link-hover"><ion-icon name="logo-facebook"></ion-icon></a>
                     </div>
                     <div class="nav-space">
-                        <a href="https://twitter.com/InternshipInJP" class="link-secondary"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://twitter.com/InternshipInJP" class="link-secondary link-hover"><ion-icon name="logo-twitter"></ion-icon></a>
                     </div>
                     <div class="nav-space">
-                        <a href="https://www.instagram.com/internshipinjapan/" class="link-secondary"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.instagram.com/internshipinjapan/" class="link-secondary link-hover"><ion-icon name="logo-instagram"></ion-icon></a>
                     </div>
                     <div class="nav-space">
-                        <a class="link-secondary text-decoration-none" href="#"> Login</a>
+                        <a class="link-secondary text-decoration-none link-hover" href="#"> Login</a>
                     </div>
                 </div>
             </div>

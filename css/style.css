@@ -11,6 +11,10 @@
     padding: 0px!important;
 }
 
+.link-hover:hover {
+    color: #dc3545!important;
+}
+
 .rechts-uitlijnen{
     float: right;
 }
