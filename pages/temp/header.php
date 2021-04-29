@@ -7,7 +7,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
         include_once('404.php'); 
     } 
 } else { // zo niet laat de home pagina zien
-    include_once('home.php');
+    include_once('index.php');
 }
 ?>
 <!doctype html>

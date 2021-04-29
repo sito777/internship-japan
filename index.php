@@ -3,7 +3,7 @@
 require_once('pages/temp/header.php');
 ?>
 <div class="banner container-fluid">
-    <img class="img-fluid banner-foto d-block" alt="Prachtig uitzicht van japan" src="img/samuel-berner-IPxOxtxDx2Q-unsplash.jpeg">
+    <img class="img-fluid banner-foto d-block" alt="Prachtig uitzicht van japan" src="img/banner-internjapan.jpg">
     <div class="overlay-text">        
         <h1>test</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum, <br>dui eget pellentesque finibus, urna turpis tincidunt sem, quis pretium risus lectus posuere orci.</p>
