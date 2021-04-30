@@ -5,9 +5,10 @@
                     <div class="col-sm-4">
                         <h5>Pagina's</h5>
                         <ul class="list-unstyled text-small">
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php">Home</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Nieuwe stage plekken</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Recent toegevoegd</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#home">Home</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#nieuwe-stageplekken">Nieuwe stage plekken</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#recent-bekeken">Recent bekeken</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#stageplekken">Stageplekken </a></li>
                         </ul>
                     </div>                
                     <div class="col-sm-4">

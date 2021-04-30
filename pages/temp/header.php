@@ -36,10 +36,10 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active link-hover" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active link-hover" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-hover" href="#">Stageplekken</a>
+                            <a class="nav-link link-hover" href="#stageplekken">Stageplekken</a>
                         </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle link-hover" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,7 +64,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                         <a href="https://www.instagram.com/internshipinjapan/" class="link-secondary link-hover"><ion-icon name="logo-instagram"></ion-icon></a>
                     </div>
                     <div class="nav-space">
-                        <a class="link-secondary text-decoration-none link-hover" href="#"> Login</a>
+                        <a class="link-secondary text-decoration-none link-hover" href="pages/login.php">Login</a>
                     </div>
                 </div>
             </div>

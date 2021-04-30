@@ -19,6 +19,10 @@
     float: right;
 }
 
+.wit{
+    color: white;
+}
+
 /* navigatie */
     .nav-space{
         margin: 0px 10px;
@@ -33,22 +37,24 @@
         position: relative;
         padding: 0px!important;
         margin-bottom: 150px;
+        border-radius: 0%!important;
+        border-style: hidden!important;
     }
 
     .banner-foto{
         width: 100vw;
-        height: 100vh;
     }
 
     .overlay-text{
         position: absolute;
         margin-top: 15%;
+        margin-left: 10%;
     }
 
     .zoekbalk{
         padding: 0px 10px!important;
         width: 50vw!important;
-        height: 40px!important;
+        height: 40px!important;        
     }    
     /* einde banner sectie  */
     
