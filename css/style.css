@@ -1,4 +1,38 @@
 /* style guide */
+:root{
+    --zwart: #171616;
+    --Lichtblauw: #01B0F1;
+    --donkerblauw: #0070C1;
+    --rood: #FF0000;
+
+    --nav: 18px;
+    --brood: 16px;
+    --kop: 20px;
+    --titel: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-tekst{
+    font-size: 18px;
+    color: #01B0F1;
+}
+
+.brood-tekst{
+    font-size: 16px;
+}
+
+.kop{
+
+}
+
+.titel{
+
+}
+
 .rond{
     border-radius: 50px!important;
 }
@@ -12,7 +46,7 @@
 }
 
 .link-hover:hover {
-    color: #dc3545!important;
+    color: #FF0000!important;
 }
 
 .rechts-uitlijnen{
@@ -21,6 +55,7 @@
 
 .wit{
     color: white;
+    font-size: var(--kop)!important;
 }
 
 /* navigatie */
@@ -107,7 +142,14 @@
         font-size: 8pt;
     }
 
-    .inlog-ww-ac{
-
-    }
 /* einde inlog pagina */
+
+/* registratie */
+    .registratie-sectie{
+        margin-top: 20%;
+    }
+    
+    .account-button{
+        width: 200px;
+    }
+/* einde registratie */

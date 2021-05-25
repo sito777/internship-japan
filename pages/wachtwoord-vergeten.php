@@ -28,26 +28,19 @@
                         </div>
                         <div class="inlog-input">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Gebruikersnaam" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input type="text" class="form-control inlog-form" placeholder="Vul je email adres in" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             </div>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input type="text" class="form-control inlog-form" placeholder="Nieuwe wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control inlog-form" placeholder="Herhaal wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             </div>
                         </div>
                         <div class="inlog-opties">
                             <div class="row">
-                                <div class="col-9 zero-padding">
-                                    <div class="row">
-                                        <div class="col-12 col-md-6">
-                                            <a href="wachtwoord-vergeten.php" class="text-secondary link-hover">Wachtwoord vergeten</a>
-                                        </div>
-                                        <div class="col-12 col-md">
-                                            <a href="register.php" class="text-secondary link-hover">Account aanmaken</a>                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 zero-padding">
-                                    <a href="#" class="btn btn-outline-danger rond rechts-uitlijnen">Inlogen</a>
+                                <div class="zero-padding">
+                                    <a href="login.php" class="btn btn-outline-danger rond rechts-uitlijnen">Verzenden</a>
                                 </div>
                             </div>                            
                         </div>                            
