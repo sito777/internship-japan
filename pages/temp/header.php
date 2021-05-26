@@ -7,7 +7,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
         include_once('404.php'); 
     } 
 } else { // zo niet laat de home pagina zien
-    include_once('index.php');
+    // include_once('index.php');
 }
 ?>
 <!doctype html>
@@ -18,10 +18,10 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- stylesheet  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 
 
     <title>Hello, world!</title>

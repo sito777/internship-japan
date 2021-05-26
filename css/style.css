@@ -4,6 +4,8 @@
     --Lichtblauw: #01B0F1;
     --donkerblauw: #0070C1;
     --rood: #FF0000;
+    --grijs: #6c757d;
+    --wit: #ffffff;
 
     --nav: 18px;
     --brood: 16px;
@@ -17,20 +19,23 @@
 }
 
 .nav-tekst{
-    font-size: 18px;
-    color: #01B0F1;
+    font-size: var(--nav)!important;
+    color: var(--grijs)!important;
 }
 
 .brood-tekst{
-    font-size: 16px;
+    font-size: var(--brood)!important;
+    color: var(--zwart)!important;
 }
 
 .kop{
-
+    font-size: var(--kop);
+    color: var(--zwart);
 }
 
 .titel{
-
+    font-size: var(--titel);
+    color: var(--zwart);
 }
 
 .rond{
@@ -46,7 +51,7 @@
 }
 
 .link-hover:hover {
-    color: #FF0000!important;
+    color: var(--rood)!important;
 }
 
 .rechts-uitlijnen{
@@ -153,3 +158,19 @@
         width: 200px;
     }
 /* einde registratie */
+
+/* over pagina */
+    .spes{
+        margin-left: -100px!important;
+    }
+
+    .overlay-img{
+        z-index: -1;
+        height: 70%!important;
+    }
+
+    .overlay-text{
+        z-index: 1;
+        margin-top: 40%;
+    }
+/* einde over pagina */
