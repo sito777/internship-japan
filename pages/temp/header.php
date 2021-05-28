@@ -1,15 +1,4 @@
-<?php
-if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
-    $pages = ['signup', 'login', 'home'];
-    if(in_array($_GET['page'], $pages)){ //check dan of de GET in de array voorkomt
-        include_once($_GET['page'].'.php');
-    } else { // zo niet laat de 404 pagina zien
-        include_once('404.php'); 
-    } 
-} else { // zo niet laat de home pagina zien
-    // include_once('index.php');
-}
-?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -36,7 +25,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active link-hover nav-tekst" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active link-hover nav-tekst" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link link-hover nav-tekst" href="#stageplekken">Stageplekken</a>
@@ -46,7 +35,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                             Over
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item link-hover nav-tekst" href="pages/over.html">Over</a></li>
+                            <li><a class="dropdown-item link-hover nav-tekst" href="#">Over</a></li>
                             <li><a class="dropdown-item link-hover nav-tekst" href="#">Team</a></li>
                             <li><a class="dropdown-item link-hover nav-tekst" href="#">Contact</a></li>
                             <li><a class="dropdown-item link-hover nav-tekst" href="#">FAQ</a></li>
@@ -64,7 +53,7 @@ if(isset($_GET['page']) && !empty($_GET['page'])){ //als de page empty is dan
                         <a href="https://www.instagram.com/internshipinjapan/" class="link-secondary link-hover"><ion-icon name="logo-instagram"></ion-icon></a>
                     </div>
                     <div class="nav-space">
-                        <a class="link-secondary text-decoration-none link-hover" href="pages/login.php">Login</a>
+                        <a class="link-secondary text-decoration-none link-hover" href="index.php?page=login">Login</a>
                     </div>
                 </div>
             </div>

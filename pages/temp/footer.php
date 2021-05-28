@@ -15,7 +15,7 @@
                         <h5>Account</h5>
                         <ul class="list-unstyled text-small">
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Register</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="pages/login.php">Login</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="/login.php">Login</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Profiel</a></li>
                         </ul>
                     </div>

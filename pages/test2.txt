@@ -1,0 +1,44 @@
+INSERT INTO itern(
+    firstname,
+    phone,
+    email,
+    city,
+    postal_code,
+    street_address
+)
+VALUES(
+    "Bo Stout",
+    "1754767559",
+    "accumsan@etnetus.ca",
+    "Khyber Agency",
+    "34456",
+    "2832940 Ac, Rd."
+),(
+    "Jason Reilly",
+    "1214813525",
+    "turpis@scelerisquemollis.net",
+    "Tame",
+    "24832",
+    "Ap #211-2095 Sit St."
+),(
+    "Diana Ferguson",
+    "5306868887",
+    "id@turpisaliquam.edu",
+    "Gorzów Wielkopolski",
+    "4435",
+    "Ap #861-9969 Auctor, Ave"
+),(
+    "Brittany Kline",
+    "1273651458",
+    "dignissim.lacus@mi.edu",
+    "Jennersdorf",
+    "37038",
+    "1585 Elit Road"
+),(
+    "Lael Hancock",
+    "8834818806",
+    "morbi.metus.vivamus@curaedonectincidunt.edu",
+    "Gönen",
+    "I8L 5J6",
+    "719-5634 Ultricies Rd."
+)

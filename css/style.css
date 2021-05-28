@@ -160,17 +160,11 @@
 /* einde registratie */
 
 /* over pagina */
-    .spes{
-        margin-left: -100px!important;
+    .row-space{
+        margin: 100px 0px;
     }
 
     .overlay-img{
-        z-index: -1;
-        height: 70%!important;
-    }
-
-    .overlay-text{
-        z-index: 1;
-        margin-top: 40%;
+        width: 100%;
     }
 /* einde over pagina */
