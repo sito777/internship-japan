@@ -5,27 +5,28 @@
                     <div class="col-sm-4">
                         <h5>Pagina's</h5>
                         <ul class="list-unstyled text-small">
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#home">Home</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#nieuwe-stageplekken">Nieuwe stage plekken</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#recent-bekeken">Recent bekeken</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#stageplekken">Stageplekken </a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home">Home</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#nieuwe-stageplekken">Nieuwe stage plekken</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#recent-bekeken">Recent bekeken</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#stageplekken">Stageplekken </a></li>
                         </ul>
                     </div>                
                     <div class="col-sm-4">
                         <h5>Account</h5>
                         <ul class="list-unstyled text-small">
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Register</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="/login.php">Login</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=registreren">Registreren</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=login">Login</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Profiel</a></li>
+                            <!-- Hoe zorg ik voor een link die de profiel gaat van de ingelogde gebruiker? -->
                         </ul>
                     </div>
                     <div class="col-sm-4">
                         <h5>Over Internship Japan </h5>
                         <ul class="list-unstyled text-small">
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Over</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Team</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">Contact</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="#">FAQ</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=over">Over</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=team">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=contact">Contact</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=faq">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
