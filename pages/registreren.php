@@ -40,7 +40,7 @@
                         <div class="inlog-opties">
                             <div class="row">
                                 <div class="zero-padding">
-                                    <a href="login.php" class="btn btn-outline-danger rond rechts-uitlijnen">Account aanmaken</a>
+                                    <a href="index.php?page=login" class="btn btn-outline-danger rond rechts-uitlijnen">Account aanmaken</a>
                                 </div>
                             </div>                            
                         </div>                    

@@ -39,15 +39,15 @@
                                 <div class="col-9 zero-padding">
                                     <div class="row">
                                         <div class="col-12 col-md-6">
-                                            <a href="wachtwoord-vergeten.php" class="text-secondary link-hover">Wachtwoord vergeten</a>
+                                            <a href="index.php?page=wachtwoord-vergeten" class="text-secondary link-hover">Wachtwoord vergeten</a>
                                         </div>
                                         <div class="col-12 col-md">
-                                            <a href="register.php" class="text-secondary link-hover">Account aanmaken</a>                                            
+                                            <a href="index.php?page=registreren" class="text-secondary link-hover">Account aanmaken</a>                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-3 zero-padding">
-                                    <a href="#" class="btn btn-outline-danger rond rechts-uitlijnen">Inlogen</a>
+                                    <a href="index.php?page=home" class="btn btn-outline-danger rond rechts-uitlijnen">Inlogen</a>
                                 </div>
                             </div>                            
                         </div>                            
