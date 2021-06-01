@@ -23,8 +23,7 @@
                     <div class="col-sm-4">
                         <h5>Over Internship Japan </h5>
                         <ul class="list-unstyled text-small">
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=over">Over</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=team">Team</a></li>
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=over">Over</a></li>                            
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=contact">Contact</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=faq">FAQ</a></li>
                         </ul>

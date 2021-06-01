@@ -1,4 +1,3 @@
-
 <!-- header + navigatie -->
 <?php 
 require_once('./temp/header.php');
@@ -57,7 +56,7 @@ require_once('./temp/header.php');
                             <div class="col-sm-8">
                                 <h5 class="card-title">Nieuwe stage plekken</h5>
                                 <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                                <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
+                                <a href="index.php?page=stageplek-profiel" class="btn btn-outline-danger rond">Klik voor meer</a>
                             </div>
                             <div class="col-sm-4">
                                     ronde foto met rode stip
