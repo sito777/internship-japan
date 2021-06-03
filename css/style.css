@@ -75,8 +75,6 @@
     .nav-space{
         margin: 0px 10px;
     }
-/* einde navigatie */
-
 
 /* home pagina */
 
@@ -104,82 +102,67 @@
         width: 50vw!important;
         height: 40px!important;        
     }    
-    /* einde banner sectie  */
-    
-    /* recent-toegevoegd */
-    /* einde recent-toegevoegd */
 
     /* cards */
     .card-space{
         margin-bottom: 20px;
     }
-    /* einde cards */
-
-/* einde home pagina */
 
 /* inlog pagina */
-    .inlog-sectie{
-        margin-top: 30%;
-    }
+.inlog-sectie{
+    margin-top: 30%;
+}
 
-    .inlog-img{
-        height: 100vh;
-        width: 100%;
-        object-fit: contain;
-    }
+.inlog-img{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
 
-    .inlog-logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-        margin-bottom: 100px;
-    }
+.inlog-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 100px;
+}
 
-    .inlog-input{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-    }
+.inlog-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
-    .inlog-form{
-        width: 30%!important;
-        border-radius: 30px!important;
-    }
-    .inlog-opties{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 65%;
-        font-size: 8pt;
-    }
-
-/* einde inlog pagina */
+.inlog-form{
+    width: 30%!important;
+    border-radius: 30px!important;
+}
+.inlog-opties{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    font-size: 8pt;
+}
 
 /* registratie */
-    .registratie-sectie{
-        margin-top: 20%;
-    }
-    
-    .account-button{
-        width: 200px;
-    }
-/* einde registratie */
+.registratie-sectie{
+    margin-top: 20%;
+}
+
+.account-button{
+    width: 200px;
+}
 
 /* over pagina */
-    .overlay-img{
-        width: 100%;
-    }
-/* einde over pagina */
-
+.overlay-img{
+    width: 100%;
+}
 
 /* profiel pagina stage plek */
 
-
-/* einde profiel pagina stage plek */
-
-/* contact pagina */
+/* contact pagina   */
 .contact .info-box {
     color: #444444;
     text-align: center;
