@@ -1,6 +1,11 @@
 <!-- header + navigatie -->
 <?php 
-require_once('./temp/header.php');
+require_once('temp/header.php');
+
+$sql = "SELECT * FROM company";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$companyhome = $stmt->fetchAll();
 ?>
 <div class="banner container-fluid card" id='home'>
     <img class="banner-foto" alt="Prachtig uitzicht van japan foto gemaakt door: ZHIJIAN DAI" src="../img/banner-internjapan.jpg">
@@ -50,20 +55,23 @@ require_once('./temp/header.php');
         <h2>Stageplekken</h2>
         <div class="row">
             <div class="col-sm-12">
-                <div class="card card-space">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-sm-8">
-                                <h5 class="card-title">Nieuwe stage plekken</h5>
-                                <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                                <a href="index.php?page=stageplek-profiel" class="btn btn-outline-danger rond">Klik voor meer</a>
+                <?php foreach($companyhome as $comp) { ?>
+                    <div class="card card-space">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h5 class="card-title"><?php echo $comp['companyname'];?></h5>
+                                    <p class="card-text"><?php echo $comp['profiel_text'];?></p>
+                                    <a href="index.php?page=stageplek-profiel&id=<?php echo $comp['company_id'];?>" class="btn btn-outline-danger rond">Klik voor meer</a>
+                                    <!-- Hoe maak ik een link die naar de juiste profielpagina linkt? -->
+                                </div>
+                                <div class="col-3 col-md-2">
+                                    <img class="overlay-img" src="../img/1.png"> 
+                                </div>                            
                             </div>
-                            <div class="col-sm-4">
-                                    ronde foto met rode stip
-                            </div>                            
                         </div>
-                    </div>
-                </div>            
+                    </div>            
+                <?php }?>
             </div>
         </div>
     </div> 

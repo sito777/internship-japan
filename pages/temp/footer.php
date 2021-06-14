@@ -32,6 +32,7 @@
             </div>
         </footer>
         <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.bundle.min.js.map"></script>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>        
     </body>
 </html>
