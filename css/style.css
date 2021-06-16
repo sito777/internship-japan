@@ -73,50 +73,45 @@
 }
 
 /* navigatie */
-    .nav-space{
-        margin: 0px 10px;
-    }
+.nav-space{
+    margin: 0px 10px;
+}
 
 /* home pagina */
+.banner{
+    position: relative;
+    padding: 0px!important;
+    margin-bottom: 150px;
+    border-radius: 0%!important;
+    border-style: hidden!important;
+}
 
-    /* banner sectie  */
-    .banner{
-        position: relative;
-        padding: 0px!important;
-        margin-bottom: 150px;
-        border-radius: 0%!important;
-        border-style: hidden!important;
-    }
+.banner-foto{
+    width: 100vw;
+}
 
-    .banner-foto{
-        width: 100vw;
-    }
+.overlay-text{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+}
 
-    .overlay-text{
-        position: absolute;
-        margin-top: 15%;
-        margin-left: 10%;
-    }
+.zoekbalk{
+  padding: 0px 10px!important;
+  width: 50vw!important;
+  height: 40px!important;        
+}    
 
-    .zoekbalk{
-        padding: 0px 10px!important;
-        width: 50vw!important;
-        height: 40px!important;        
-    }    
-
-    /* cards */
-    .card-space{
-        margin-bottom: 20px;
-    }
+.card-space{
+    margin-bottom: 20px;
+}
 
 /* inlog pagina */
 .inlog-sectie{
-    margin-top: 30%;
+  margin-top: 20%;
 }
 
 .inlog-img{
-    height: 100vh;
-    width: 100%;
     object-fit: contain;
 }
 

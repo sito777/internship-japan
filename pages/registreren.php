@@ -18,13 +18,13 @@
             <div class="row">
                 <!-- afbeelding -->
                 <div class="col-md-6 d-none d-md-block zero-padding">
-                    <img src="../img/samuel-berner-IPxOxtxDx2Q-unsplash.jpeg" class="inlog-img">
+                    <img src="../img/manuel-cosentino-7IO8Uei5TzA-unsplash.jpg" class="inlog-img col-12">
                 </div>
                 <!-- inlog sectie -->
                 <div class="col-md-6">
                     <div class="align-items-center registratie-sectie">
-                        <div class="inlog-logo">
-                            <img src="" alt="Logo internship japan" >
+                        <div>
+                            <img src="../img/logo.png" class="inlog-logo" width="60%" alt="Logo internship japan" >
                         </div>
                         <div class="inlog-input">
                             <div class="input-group mb-3">

@@ -18,37 +18,22 @@ $companyhome = $stmt->fetchAll();
         </div>
     </div>
 </div>
-
+<!-- $items = array_slice($items, -5); -->
 <div class="container">
     <div class="row nieuwe-stageplekken sectie-space" id='nieuwe-stageplekken'>
         <h2>Nieuwe stageplekken</h2>
-        <div class="col-sm-4">
-            <div class="card order-danger">
-                <div class="card-body border-danger">
-                    <h5 class="card-title">Nieuwe stage plekken</h5>
-                    <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
+        <?php $recent = array_slice($companyhome, -3);
+        foreach ($recent as $recentcomp){?>
+            <div class="col-sm-4">
+                <div class="card order-danger">
+                    <div class="card-body border-danger ">
+                        <h5 class="card-title"><?php echo $recentcomp['companyname'];?></h5>
+                        <p class="card-text"><?php echo $recentcomp['profiel_text'];?></p>
+                        <a href="index.php?page=stageplek-profiel&id=<?php echo $recentcomp['company_id'];?>" class="btn btn-outline-danger rond">Klik voor meer</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Nieuwe stage plekken</h5>
-                    <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Nieuwe stage plekken</h5>
-                    <p class="card-text">beschrijving nieuwe stage plekken.</p>
-                    <a href="#" class="btn btn-outline-danger rond">Klik voor meer</a>
-                </div>
-            </div>
-        </div>
+        <?php }?>
     </div>
 
     <div class="stageplekken sectie-space" id='stageplekken'>
