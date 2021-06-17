@@ -39,13 +39,13 @@
 
 .titel{
     font-size: var(--titel);
-    color: var(--rood);
+    color: var(--zwart);
     font-weight: bold;
 }
 
 .big-titel{
   font-size: var(--big);
-  color: var(--zwart);
+  color: var(--rood);
   font-weight: bold;
 }
 

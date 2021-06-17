@@ -5,8 +5,26 @@ require_once('temp/header.php');
 
 <!-- company update  -->
 <?php 
-if(isset($_POST['update'])){
+if(!$_GET['company_id']) || empty($_GET['company_id']){
+    header('location: index.php?page=profiel-pagina')
+}
+$id = interval($_GET['company_id'])
 
+if(isset($_POST['update'])){
+    $sql = "INSERT INTO company(companyname, street_adress, postal_code, country_id, field, position, position_text, profiel_text, video) VAlUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute([
+        $_POST['companyname'],
+        $_POST['street_adress'],
+        $_POST['postal_code'],
+        $_POST['country_id'],
+        $_POST['field'],
+        $_POST['position'],
+        $_POST['position_text'],
+        $_POST['profiel_text'],
+        $_POST['video']
+    ]);
+    header('location: index.php?page=profiel-pagina');
 }
 ?>
 <div class="container row-space">
@@ -52,12 +70,47 @@ if(isset($_POST['update'])){
                 <span class="input-group-text" id="inputGroup-sizing-default">Video link</span>
                 <input name="video" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"  placeholder="" value="<?php echo (isset($_POST['video']) ? $_POST['video']: '')?>" minlength="11" maxlength="11" required>
             </div>
-            <button type="submit" name="update" class="btn btn-primary" href="index.php?page=profiel-pagina">Update</button>
+            <button type="submit" name="update" class="btn btn-primary">Update</button>
         </form>    
     </div>
 </div>
 
 <!-- intern update  -->
+<?php 
+
+if(!$_GET['inter_id']) || empty($_GET['inter_id']){
+    header('location: index.php?page=profiel-pagina')
+}
+$id = interval($_GET['inter_id'])s
+
+if(isset($_POST['update'])){
+    $sql = "INSERT INTO company(firstname, surname, email, phone, city, street_address, date_of_birth, nationality, native_language, second_language, postal_code, country_id, study, already_graduated, profile_text, linkedin, instagram, facebook, video, profile_image) VAlUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute([
+        $_POST['firstname'],
+        $_POST['surname'],
+        $_POST['email'],
+        $_POST['phone'],
+        $_POST['city'],
+        $_POST['street_address'],
+        $_POST['date_of_birth'],
+        $_POST['nationality'],
+        $_POST['native_language']
+        $_POST['second_language']
+        $_POST['postal_code']
+        $_POST['country_id']
+        $_POST['study']
+        $_POST['already_graduated']
+        $_POST['profile_text']
+        $_POST['linkedin']
+        $_POST['instagram']
+        $_POST['facebook']
+        $_POST['video']
+        $_POST['profile_image']
+    ]);
+    header('location: index.php?page=profiel-pagina');
+}
+?>
 <div class="container row-space">
     <div class="row col-lg-6 offset-lg-3">
         <form>

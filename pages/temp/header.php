@@ -36,6 +36,9 @@
                                 Over
                             </a>                        
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item link-hover nav-tekst" href="index.php?page=profiel-pagina">Profiel</a>                   
+                                <a class="dropdown-item link-hover nav-tekst" href="index.php?page=profiel-pagina-create">Profiel aanvullen</a>                   
+                                <a class="dropdown-item link-hover nav-tekst" href="index.php?page=profiel-pagina-update">Profiel updaten</a>                   
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=over">Over</a>                   
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=contact">Contact</a>
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=faq">FAQ</a>
