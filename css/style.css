@@ -11,6 +11,7 @@
     --brood: 16px;
     --kop: 20px;
     --titel: 24px;
+    --big: 60px;
 }
 
 *{
@@ -38,8 +39,14 @@
 
 .titel{
     font-size: var(--titel);
-    color: var(--zwart);
+    color: var(--rood);
     font-weight: bold;
+}
+
+.big-titel{
+  font-size: var(--big);
+  color: var(--zwart);
+  font-weight: bold;
 }
 
 .row-space{

@@ -112,4 +112,3 @@ if ($id == 0){
 // footer
 require_once('./temp/footer.php');
 ?>
-<?php echo $comp['']?>

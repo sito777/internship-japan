@@ -61,7 +61,7 @@ $companyhome = $stmt->fetchAll();
         </div>
     </div> 
     
-    <div class="row recent-bekeken sectie-space" id='recent-bekeken'>
+    <!-- <div class="row recent-bekeken sectie-space" id='recent-bekeken'>
         <h2>Recent bekeken</h2>
         <div class="col-sm-4">
             <div class="card order-danger">
@@ -90,7 +90,7 @@ $companyhome = $stmt->fetchAll();
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 <!-- footer  -->
 <?php 

@@ -5,7 +5,7 @@ require_once('../pages/temp/header.php');
 <div class="banner container-fluid card" id='home'>
     <img class="banner-foto" alt="Prachtig uitzicht van japan foto gemaakt door: ZHIJIAN DAI" src="../img/agathe-marty-2cdvYh6ULCs-unsplash.png">
     <div class="overlay-text">        
-        <h1 class='wit'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum</h1>        
+        <h1 class='big-titel'>Over internship Japan</h1>        
     </div>
 </div>
 

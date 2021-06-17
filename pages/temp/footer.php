@@ -7,7 +7,7 @@
                         <ul class="list-unstyled text-small">
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home">Home</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#nieuwe-stageplekken">Nieuwe stage plekken</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#recent-bekeken">Recent bekeken</a></li>
+                            <!-- <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#recent-bekeken">Recent bekeken</a></li> -->
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=home#stageplekken">Stageplekken </a></li>
                         </ul>
                     </div>                
