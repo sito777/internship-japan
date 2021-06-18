@@ -41,7 +41,7 @@
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=profiel-pagina-update">Profiel updaten</a>                   
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=over">Over</a>                   
                                 <a class="dropdown-item link-hover nav-tekst" href="index.php?page=contact">Contact</a>
-                                <a class="dropdown-item link-hover nav-tekst" href="index.php?page=faq">FAQ</a>
+                                <!-- <a class="dropdown-item link-hover nav-tekst" href="index.php?page=faq">FAQ</a> -->
                             </div>
                         </li>
                     </ul>

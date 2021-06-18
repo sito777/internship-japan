@@ -16,8 +16,8 @@
                         <ul class="list-unstyled text-small">
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=registreren">Registreren</a></li>
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=login">Login</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=profiel-pagina">Profiel</a></li>
-                            <!-- Hoe zorg ik voor een link die de profiel gaat van de ingelogde gebruiker? -->
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=profiel-pagina">Profiel</a></li>                            
+                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=logout">Uitloggen</a></li>                            
                         </ul>
                     </div>
                     <div class="col-sm-4">
@@ -25,7 +25,7 @@
                         <ul class="list-unstyled text-small">
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=over">Over</a></li>                            
                             <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=contact">Contact</a></li>
-                            <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=faq">FAQ</a></li>
+                            <!-- <li class="mb-1"><a class="link-secondary text-decoration-none link-hover" href="index.php?page=faq">FAQ</a></li> -->
                         </ul>
                     </div>
                 </div>

@@ -1,3 +1,26 @@
+<?php
+if(isset($_POST['submit'])){
+    $hashed_pass = password_hash($_POST['password'], PASSWORD_DEFAULT);
+
+    $stmt = $conn->prepare("INSERT INTO user(username, password, role) VALUES (:username,:password, :role)");
+    $stmt->bindParam(":username", $_POST['username']);
+    $stmt->bindParam(":password", $hashed_pass);
+    $stmt->bindParam(":role", $_POST['role']);
+    $stmt->execute();
+    
+    if($_POST['role'] == '1'){
+        header('location: index.php?page=login');
+    }
+    if($_POST['role'] == '2'){
+        header('location: index.php?page=login');
+    }
+    if($_POST['role'] == '3'){
+        header('location: index.php?page=login');
+    }
+}
+
+?>
+
 <html lang="en">
     <head>
     <!-- Required meta tags -->
@@ -23,27 +46,29 @@
                 <!-- inlog sectie -->
                 <div class="col-md-6">
                     <div class="align-items-center registratie-sectie">
-                        <div>
-                            <img src="../img/logo.png" class="inlog-logo" width="60%" alt="Logo internship japan" >
-                        </div>
-                        <div class="inlog-input">
-                            <div class="input-group mb-3">
-                                <input name="email" maxlength="50" minlength="7" type="text" class="form-control inlog-form" placeholder="Email" aria-label="Recipient's email" aria-describedby="basic-addon2" required>
-                            </div>                               
-                            <div class="input-group mb-3">
-                                <input name="password" type="text" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>
+                        <form name="x" method="post" action="">
+                            <div>
+                                <img src="../img/logo.png" class="inlog-logo" width="60%" alt="Logo internship japan" >
                             </div>
-                            <div class="input-group mb-3">
-                                <input name="password" type="text" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Herhaal wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>
-                            </div>
-                        </div>
-                        <div class="inlog-opties">
-                            <div class="row">
-                                <div class="zero-padding">
-                                    <button type="submit" name="aanmaken" class="btn btn-outline-danger rond rechts-uitlijnen">Account aanmaken</button>
+                            <div class="inlog-input">
+                                <div class="input-group mb-3">
+                                    <input name="username" maxlength="50" minlength="7" type="text" class="form-control inlog-form" placeholder="Email" aria-label="Recipient's email" aria-describedby="basic-addon2" required>
+                                </div>                               
+                                <div class="input-group mb-3">
+                                    <input name="password" type="password" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>
                                 </div>
-                            </div>                            
-                        </div>                    
+                                <div class="input-group mb-3">
+                                    <input value="<?php echo (isset($_POST['role']) ? $_POST['role'] : '' );?>" type="text" name="role" class="form-control" id="input_role" placeholder="Typ 1, 2 of 3">                                    
+                                </div>
+                            </div>
+                            <div class="inlog-opties">
+                                <div class="row">
+                                    <div class="zero-padding">
+                                        <button type="submit" name="submit" class="btn btn-outline-danger rond rechts-uitlijnen">Account aanmaken</button>
+                                    </div>
+                                </div>                            
+                            </div>  
+                        </form>                  
                     </div>
                 </div>
             </div>     

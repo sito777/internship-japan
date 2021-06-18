@@ -1,19 +1,20 @@
 <!-- header + navigatie -->
 <?php 
+session_start();
+$user_id = $_SESSION['username'];
 require_once('temp/header.php');
 ?>
 
 <!-- company update  -->
 <?php 
-// if((!$_GET['company_id']) || empty($_GET['company_id'])){
-//     header('location: index.php?page=profiel-pagina');
-// }
-// $id = interval($_GET['company_id']);
 
-$sql = "SELECT * FROM company";
+$sql = "SELECT * FROM company WHERE user_id LIKE 4";
 $stmt = $conn->prepare($sql);
+$stmt->bindParam("user_id", $user_id);
 $stmt->execute();
 $result = $stmt->fetchAll();
+
+print_r($result);
 
 if(isset($_POST['update'])){
     $sql = "UPDATE company SET companyname = ?, street_adress = ?, postal_code = ?, country_id = ?, field = ?, position = ?, position_text = ?, profiel_text = ?, video = ? WHERE company_id = ?";
@@ -28,14 +29,14 @@ if(isset($_POST['update'])){
         $_POST['position_text'],
         $_POST['profiel_text'],
         $_POST['video'],
-        $id
+        // $_POST['id']
     ]);
     header('location: index.php?page=profiel-pagina');
 }
 ?>
 <div class="container row-space">
     <div class="row col-lg-6 offset-lg-3">
-        <form>
+        <form name="x" method="post" action="">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Bedrijfs naam</span>
                 <input name="companyname" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"  placeholder="" value="<?php echo (isset($_POST['companyname']) ? $_POST['companyname']: ($result['companyname']))?>" maxlength="120" required>

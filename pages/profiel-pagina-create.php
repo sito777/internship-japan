@@ -24,7 +24,7 @@ if(isset($_POST['update'])){
         $_POST['profiel_text'],
         $_POST['video'],
     ]);
-    header('location: index.php?page=profiel-pagina');
+    // header('location: index.php?page=profiel-pagina');
 }
 ?>
 <div class="container row-space">
