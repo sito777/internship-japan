@@ -27,20 +27,20 @@
                             <img src="../img/logo.png" class="inlog-logo" width="60%" alt="Logo internship japan" >
                         </div>
                         <div class="inlog-input">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Vul je email adres in" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group mb-3">                                
+                                <input name="email" maxlength="50" minlength="7" type="text" class="form-control inlog-form" placeholder="Vul je email adres in" aria-label="Recipient's email" aria-describedby="basic-addon2" required>
+                            </div>
+                            <div class="input-group mb-3">                            
+                                <input name="password" type="text" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Nieuwe wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>
                             </div>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Nieuwe wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            </div>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Herhaal wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input name="password" type="text" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Herhaal wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>
                             </div>
                         </div>
                         <div class="inlog-opties">
                             <div class="row">
                                 <div class="zero-padding">
-                                    <a href="index.php?page=login" class="btn btn-outline-danger rond rechts-uitlijnen">Verzenden</a>
+                                    <button type="submit" name="verzenden" class="btn btn-outline-danger rond rechts-uitlijnen">Verzenden</button>
                                 </div>
                             </div>                            
                         </div>                            

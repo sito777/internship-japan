@@ -28,10 +28,10 @@
                         </div>
                         <div class="inlog-input">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input name="email" maxlength="50" minlength="7" type="text" class="form-control inlog-form" placeholder="Email" aria-label="Recipient's email" aria-describedby="basic-addon2" required>
                             </div>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control inlog-form" placeholder="Wachtwoord" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <input name="password" type="text" minlength="7" maxlength="255" class="form-control inlog-form" placeholder="Wachtwoord" aria-label="Recipient's password" aria-describedby="basic-addon2" required>   
                             </div>
                         </div>
                         <div class="inlog-opties">
@@ -47,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-3 zero-padding">
-                                    <a href="index.php?page=home" class="btn btn-outline-danger rond rechts-uitlijnen">Inlogen</a>
+                                <button type="submit" name="aanmaken" class="btn btn-outline-danger rond rechts-uitlijnen">Inloggen</button>
                                 </div>
                             </div>                            
                         </div>                            
