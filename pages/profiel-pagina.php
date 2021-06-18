@@ -99,7 +99,7 @@ if($role == 1 ){
 <!-- user -->
 <?php
 if($role == 2){
-    $sql = "SELECT * FROM itern WHERE user_id LIKE user_id";
+    $sql = "SELECT * FROM itern WHERE user_id LIKE :user_id";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':user_id', $user_id);
     $stmt->execute();

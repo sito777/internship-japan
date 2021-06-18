@@ -20,7 +20,11 @@ $_SESSION['user'] = $user_id ;
 <?php
 // company 
 if($role == 1){
-    $sql = "DELETE FROM comapny_id WHERE user_id LIKE user_id";
+    $sql = "DELETE FROM comapny_id WHERE user_id LIKE :user_id";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':user_id', $user_id);
+    $stmt->execute();
+    $sql = "DELETE FROM user WHERE user_id LIKE :user_id";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':user_id', $user_id);
     $stmt->execute();
@@ -31,7 +35,11 @@ if($role == 1){
 <?php 
 // intern 
 if($role == 2){
-    $sql = "DELETE FROM itern WHERE user_id LIKE user_id";
+    $sql = "DELETE FROM itern WHERE user_id LIKE :user_id";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':user_id', $user_id);
+    $stmt->execute();
+    $sql = "DELETE FROM user WHERE user_id LIKE :user_id";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':user_id', $user_id);
     $stmt->execute();

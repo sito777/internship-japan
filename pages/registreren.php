@@ -7,16 +7,29 @@ if(isset($_POST['submit'])){
     $stmt->bindParam(":password", $hashed_pass);
     $stmt->bindParam(":role", $_POST['role']);
     $stmt->execute();
+
+    // haal de meest recente id op 
+    $stmt=$conn->prepare("SELECT user_id FROM user WHERE username LIKE :username ORDER BY user_id DESC limit 1");
+    $stmt->bindParam(':username', $_POST['username']);
+    $stmt->execute();
+    $user_id = $stmt->fetch(PDO::FETCH_ASSOC)['user_id'];
     
     if($_POST['role'] == '1'){
+        $stmt = $conn->prepare("INSERT INTO company(user_id, companyname) VALUES (:id, 'vul hier je bedrijfsnaam')");
+        $stmt->bindParam(':id', $user_id);
+        $stmt->execute();
         header('location: index.php?page=login');
     }
     if($_POST['role'] == '2'){
+        $stmt = $conn->prepare("INSERT INTO itern(user_id, email, phone, firstname) VALUES (:id, :username, '000000','vul hier je naam in')");
+        $stmt->bindParam(":username", $_POST['username']);
+        $stmt->bindParam(':id', $user_id);
+        $stmt->execute();
         header('location: index.php?page=login');
     }
-    if($_POST['role'] == '3'){
-        header('location: index.php?page=login');
-    }
+    // if($_POST['role'] == '3'){
+    //     header('location: index.php?page=login');
+    // }
 }
 
 ?>
