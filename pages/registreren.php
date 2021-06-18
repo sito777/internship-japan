@@ -20,6 +20,7 @@ if(isset($_POST['submit'])){
         $stmt->execute();
         header('location: index.php?page=login');
     }
+    
     if($_POST['role'] == '2'){
         $stmt = $conn->prepare("INSERT INTO itern(user_id, email, phone, firstname) VALUES (:id, :username, '000000','vul hier je naam in')");
         $stmt->bindParam(":username", $_POST['username']);
