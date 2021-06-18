@@ -83,7 +83,7 @@ require_once('./temp/header.php');
     <?php }?>
     <div class="row align-items-center">
         <div class="col-4 offset-4">
-            <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-create">Profiel aanvullen</a>
+            <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-create">Profiel aanmaken</a>
             <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-update">aanpassen</a>
             <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-delete">verwijderen</a>
         </div>
@@ -205,9 +205,10 @@ require_once('./temp/header.php');
     <?php }?>
     <div class="row align-items-center">
         <div class="col-4 offset-4">
-            <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-create">Profiel aanvullen</a>
+            <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-create">Profiel aanmaken</a>
             <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-update">aanpassen</a>
             <a type="button" class="btn btn-outline-primary" href="index.php?page=profiel-pagina-delete">verwijderen</a>
+            <!-- De links zou ik al eigenlijk moeten verbinden met de id toch? -->
         </div>
     </div>
 </div>

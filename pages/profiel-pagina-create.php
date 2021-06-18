@@ -5,6 +5,11 @@ require_once('temp/header.php');
 
 <!-- company update  -->
 <?php 
+$sql = "SELECT * FROM company";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$profiel_company = $stmt->fetchAll(); 
+
 if(isset($_POST['update'])){
     $sql = "INSERT INTO company(companyname, street_adress, postal_code, country_id, field, position, position_text, profiel_text, video) VAlUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
@@ -17,7 +22,7 @@ if(isset($_POST['update'])){
         $_POST['position'],
         $_POST['position_text'],
         $_POST['profiel_text'],
-        $_POST['video']
+        $_POST['video'],
     ]);
     header('location: index.php?page=profiel-pagina');
 }
@@ -72,6 +77,11 @@ if(isset($_POST['update'])){
 
 <!-- intern update  -->
 <?php 
+$sql = "SELECT * FROM itern";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+$profiel_user = $stmt->fetchAll();
+
 if(isset($_POST['update'])){
     $sql = "INSERT INTO company(firstname, surname, email, phone, city, street_address, date_of_birth, nationality, native_language, second_language, postal_code, country_id, study, already_graduated, profile_text, linkedin, instagram, facebook, video, profile_image) VAlUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
@@ -84,18 +94,18 @@ if(isset($_POST['update'])){
         $_POST['street_address'],
         $_POST['date_of_birth'],
         $_POST['nationality'],
-        $_POST['native_language']
-        $_POST['second_language']
-        $_POST['postal_code']
-        $_POST['country_id']
-        $_POST['study']
-        $_POST['already_graduated']
-        $_POST['profile_text']
-        $_POST['linkedin']
-        $_POST['instagram']
-        $_POST['facebook']
-        $_POST['video']
-        $_POST['profile_image']
+        $_POST['native_language'],
+        $_POST['second_language'],
+        $_POST['postal_code'],
+        $_POST['country_id'],
+        $_POST['study'],
+        $_POST['already_graduated'],
+        $_POST['profile_text'],
+        $_POST['linkedin'],
+        $_POST['instagram'],
+        $_POST['facebook'],
+        $_POST['video'],
+        $_POST['profile_image'],
     ]);
     header('location: index.php?page=profiel-pagina');
 }
